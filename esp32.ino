@@ -3,7 +3,7 @@
 
 const char* ssid = "P102";
 const char* password = "12345678";
-const char* serverName = "http://TU_SERVIDOR/api/data";
+const char* serverName = "/api/data";
 
 void setup() {
   Serial.begin(115200);
